@@ -1,7 +1,7 @@
 #converterContainer {
     margin: 20px 0;
-    width: 60vw;
-    height: 25vh;
+    width: 40vw;
+    height: 30vh;
     border: 1px solid #BDBCDE;
     background: rgba(189, 188, 222, .3) ;
     display: flex;
@@ -16,8 +16,74 @@
     text-align: center;
     border-radius: 10px;
     font-size: 20px;
+    
 }
 
 #converterContainer select {
-    
+    width: 7vw;
+    height: 3vh;
+    font-weight: bold;
+    text-align: center;
+    border: none;
+    border-radius: 5px;
+}
+
+#converterContainer button {
+    width: 6vw;
+    height: 5vh;
+    color: #fff;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    background-color: #2A2255;
+    opacity: .75;
+    cursor: pointer;
+}
+
+#converterContainer input, select, button {
+    margin-bottom: 15px;
+}
+
+#converterContainer span {
+    margin: 0 10px;
+}
+
+.result {
+    background-color: #2A2255;
+    border-radius: 5px;
+    padding: 20px;
+    font-size: 20px;
+}
+
+#converterContainer button:hover {
+    opacity: 1;
+}
+
+@media (max-width:1024px) {
+    #converterContainer button {
+        width: 15vw;
+    }
+
+    #converterContainer select {
+        width: 10vw;
+    }
+}
+
+@media (max-width:425px) {
+    #converterContainer {
+        width: 85vw;
+    }
+
+    #converterContainer input {
+        width: 50vw;
+    }
+
+    #converterContainer select {
+        width: 25vw;
+        height: 3vh;
+    }
+
+    #converterContainer button {
+        width: 25vw;
+    }
 }

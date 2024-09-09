@@ -62,7 +62,7 @@ const Converter = ({ addToHistory }) => {
       <button onClick={convertCurrency}>Converter</button>
 
       {result && (
-        <p>
+        <p className="result">
           {amount} {fromCurrency} = {result} {toCurrency}
         </p>
       )}

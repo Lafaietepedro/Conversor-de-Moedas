@@ -21,3 +21,13 @@ h1 {
   font-size: 50px;
   margin-bottom: 30px;
 }
+
+#converterContainer, #historyContainer {
+  box-shadow: 3px 4px 27px 4px rgba(189, 188, 222, 0.38)
+}
+
+@media (max-width:425px) {
+  h1 {
+    font-size: 35px;
+  }
+}

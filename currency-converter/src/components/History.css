@@ -1,0 +1,40 @@
+#historyContainer {
+    border: 1px solid #BDBCDE;
+    background-color: rgba(189, 188, 222, .5);
+    width: 25vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 5px;
+}
+
+#historyContainer h2 {
+    margin: 10px 0;
+}
+
+#historyContainer h2, #historyContainer p, #historyContainer li {
+    color: #fff;
+}
+
+#historyContainer ul {
+    list-style-type: none;
+    margin-bottom: 10px;
+    line-height: 20px;
+}
+
+#historyContainer li {
+    color: #fff;
+}
+
+@media (max-width:1024px) {
+    #historyContainer {
+        width: 50vw;
+    }
+}
+
+@media (max-width:425px) {
+    #historyContainer {
+        width: 90vw;
+    }
+}
