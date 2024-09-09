@@ -2,7 +2,7 @@ import React from 'react';
 
 const History = ({ history }) => {
   return (
-    <div>
+    <div id='historyContainer'>
       <h2>Histórico de Conversões</h2>
       {history.length === 0 ? (
         <p>Nenhuma conversão realizada.</p>

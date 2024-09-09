@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import Converter from './components/Converter';
 import History from './components/History';
+import './App.css'
 
 const App = () => {
   const [history, setHistory] = useState([]); // Armazenar o histórico de conversões
@@ -11,7 +12,7 @@ const App = () => {
   };
 
   return (
-    <div>
+    <div className='App'>
       <h1>Conversor de Moedas</h1>
       <Converter addToHistory={addToHistory} />
       <History history={history} />
